@@ -1,9 +1,6 @@
 import tkinter as tk
 import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
-from mpl_toolkits.mplot3d import Axes3D
 
 class Application(tk.Frame):
     def __init__(self, master=None):
